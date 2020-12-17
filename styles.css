@@ -1,0 +1,91 @@
+body {
+    background-color: #6b1ceb;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav {
+   
+    font-size: 30px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    background-color: ;
+    
+    
+}
+nav ul {
+    float: right;
+    
+}
+
+#navbarNav li a {
+    color: white;
+    
+   
+   
+}
+
+.nav-js {
+    color: #161819;
+}
+
+#nav-js-beg {
+    position: relative;
+    margin-top: 7px;
+    color:  #4B1F90;
+    text-shadow: 2px 2px #161819;
+    
+
+}
+
+#nav-js-end {
+    position: relative;
+    margin-top: 7px;
+    color:  #4B1F90;
+    text-shadow: 2px 2px #161819;
+
+}
+
+#jumbo-h1 {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+}
+
+#jumbo-h1 span {
+    color: #161819;
+    text-shadow: 2px 2px #4B1F90;
+}
+
+#jumbo-h2 {
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    margin-left: 7%;
+}
+
+#jumbo-h2 span {
+    color: #161819;
+    text-shadow: 2px 2px #4B1F90;
+}
+
+.nav-punct {
+    color:  #4B1F90;
+    text-shadow: 2px 2px #161819;
+}
+
+#about {
+    color: white;
+}
+
+#greeting {
+    font-size: 100px;
+}
+
+#greeting span {
+    color:  #4B1F90;
+    text-shadow: 2px 2px #161819;
+}
+
+#greeting h1{
+    text-align: center;
+}
+
+
