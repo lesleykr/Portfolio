@@ -4,45 +4,52 @@ body {
 }
 
 nav {
-   
+    
     font-size: 30px;
     color: white;
-    font-family: 'Rajdhani', sans-serif;
-    background-color: ;
-    
-    
-}
-nav ul {
-    float: right;
-    
+    font-family: 'Rajdhani', sans-serif; 
+      
 }
 
-#navbarNav li a {
+nav ul {
+    background-color: #4B1F90; 
+}
+nav li a {
     color: white;
-    
-   
-   
+     
 }
 
 .nav-js {
     color: #161819;
+    
 }
 
 #nav-js-beg {
-    position: relative;
+    /* position: relative; */
     margin-top: 7px;
     color:  #4B1F90;
     text-shadow: 2px 2px #161819;
-    
-
 }
 
 #nav-js-end {
-    position: relative;
+    /* position: relative; */
     margin-top: 7px;
     color:  #4B1F90;
     text-shadow: 2px 2px #161819;
 
+}
+
+.nav-punct {
+    color:  #4B1F90;
+    text-shadow: 2px 2px #161819;
+}
+
+.jumbotron {
+    padding: 200px 0 130px 0;
+}
+
+.jumbotron .container{
+    text-align: center;
 }
 
 #jumbo-h1 {
@@ -66,17 +73,16 @@ nav ul {
     text-shadow: 2px 2px #4B1F90;
 }
 
-.nav-punct {
-    color:  #4B1F90;
-    text-shadow: 2px 2px #161819;
-}
+#jumbo-h3 {
+    color: #161819;
+    text-shadow: 2px 2px #4B1F90;    
+    margin-right: 600px;
 
-#about {
-    color: white;
 }
 
 #greeting {
     font-size: 100px;
+    margin: 70px auto;
 }
 
 #greeting span {
@@ -88,4 +94,59 @@ nav ul {
     text-align: center;
 }
 
+#about {
+    color: white;
+    margin: 70px auto;
+}
 
+#skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin: 70px auto;
+   
+  }
+  
+  #skills li {
+    float: left;
+  }
+  
+  #skills li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+ #skills li a:hover {
+    background-color: #111111;
+  }
+
+  #projects {
+    margin: 70px auto;
+  }
+
+form {
+    display: block;
+    margin: 70px auto;
+}
+ #name {
+     width: 1000px;
+     text-align: center;
+ }
+ #email {
+     width: 1000px;
+ }
+ textarea {
+     width: 1000px;
+ }
+
+ footer ul {
+     list-style-type: none;
+ }
+
+ footer ul li i{
+     width: 100px;
+     height: 100px;
+ }

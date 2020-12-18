@@ -11,64 +11,58 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Anaheim&family=Blinker&family=Lekton&family=Montserrat&family=Rajdhani:wght@500&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio</title>
 </head>
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#2F2F2F;">
-        <a class="navbar-brand" href="#">lesley reuter</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav" class="d-flex justify-content-end">
+        <nav>    
+            <ul class="nav fixed-top justify-content-end">
 
                 <li class="nav-item" id="nav-js-beg">let nav = [</li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="nav-js">'</span>home<span class="nav-js">',</span></a>
+                    <a class="nav-link" href="nav"><span class="nav-js">'</span>home<span class="nav-js">',</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="nav-js">'</span>about<span class="nav-js">',</span></a>
+                    <a class="nav-link" href="#about"><span class="nav-js">'</span>about<span class="nav-js">',</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="nav-js">'</span>skills<span class="nav-js">',</span></a>
+                    <a class="nav-link" href="#skills"><span class="nav-js">'</span>skills<span class="nav-js">',</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="nav-js">'</span>portfolio<span
+                    <a class="nav-link" href="#projects"><span class="nav-js">'</span>portfolio<span
                             class="nav-js">',</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><span class="nav-js">'</span>contact<span class="nav-js">'</span></a>
+                    <a class="nav-link" href="#contact"><span class="nav-js">'</span>contact<span class="nav-js">'</span></a>
                 </li>
                 <li class="nav-item" id="nav-js-end">];</a>
                 </li>
-
             </ul>
-        </div>
-    </nav>
+        </nav>
+     
     <!-- HEADER -->
-    <div class="jumbotron jumbotron-fluid" style="background-color: #161819;">
+    <div class="jumbotron jumbotron-fluid " style="background-color: #161819;">
         <div class="container">
             <h1 class="display-4" id="jumbo-h1"><span>const </span>lesleyReuter <span>= () => {</span></h1>
             <h2 class="display-5" id="jumbo-h2"><span>return '</span>junior web developer<span>';</span>
-                <h1 class="display-5" id="jumbo-h2"><span>}</span></h1>
+                <h1 class="display-5" id="jumbo-h3"><span>}</span></h1>
 
         </div>
     </div>
     <!-- ABOUT -->
     <div class="container" id="about">
-        <div class="row">
+       
             <div id="greeting">
                 <h1><span>console.log('</span>hello world<span>');</span></h1>
             </div>
-            <div class="col-sm-4">
+           
+            <div class="about">
                 I'm Lesley! I am an enthusiastic web developer who revels in paying attention to the details and
                 tweaking my code until it's perfect!
-            </div>
-            <div class="about">
                 I am a creative, out-of-the-box (there was a box? What box? I didn’t see a box…) thinker who loves
                 making things! Whether I’m coding a website, crocheting a crazy scarf, knitting wire jewelry, or melting
                 Saran Wrap to make handbags, I’m always making something!
@@ -77,93 +71,103 @@
                 position allowed me to express my creativity and love of people.
 
             </div>
-        </div>
+        
     </div>
-        <div id="skills" class="container">
-            <h2>Skills</h2>
-            <div class="row">
-                <div class="col">
-                    <p>HTML</p>
+
+    <div id="skills" class="container">
+        <h2>Skills</h2>
+        
+        <ul class="row">
+            <li class="col"><i class="fab fa-html5 fa-5x"></i></li>
+            <li class="col"><i class="fab fa-css3-alt fa-5x"></i></li>
+            <li class="col"><i class="fab fa-js-square fa-5x"></i></li>
+            <li class="col"><i class="fab fa-bootstrap fa-5x"></i></li>
+            <li class="col"><i class="fab fa-github fa-5x"></i></li>            
+        </ul>
+    </div>
+    <div id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div id="creature" class="card h-100">
+                    <a href="https://codepen.io/lesleykr/full/rNLoZrR" target="_blank"><img src="Images/css-creature.png"></a>
+                    <div class="card-body">
+                        <h5 class="card-title">CSS Creature</h5>
+                    </div>
                 </div>
-                <div class="col">
-                    <p>CSS</p>
+            </div>
+            <div class="col">
+                <div id="kast" class="card h-100">
+                    <a href="https://lesleykr.github.io/staticLayout/" target="_blank"><img src="Images/kast-image.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">Static Layout</h5>
+                    </div>
                 </div>
-                <div class="col">
-                    <p>JavaScript</p>
+            </div>
+            <div class="col">
+                <div id="api" class="card h-100">
+                    <a href="https://lesleykr.github.io/pic-a-picAPI/" target="_blank"><img src="Images/picture-it.png" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title">API Project</h5>
+                    </div>
                 </div>
-                <div class="col">
-                    <p>Bootstrap</p>
+            </div>
+            <div class="col">
+                <div id="blue-badge" class="card">
+                    <img src="Images/coming-soon.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Badge Project</h5>
+                    </div>
                 </div>
-                <div class="col">
-                    <p>React (Coming Soon!)</p>
+            </div>
+            <div class="col">
+                <div id="red-badge" class="card h-100">
+                    <img src="Images/coming-soon.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blue Badge Project</h5>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div id="resume">
+        <h2>Resume</h2>
+    </div>
 
-        <div id="projects" class="container">
-            <h2>Projects</h2>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                  <div id="creature" class="card h-100">
-                    <img src="Images/css-creature.png" class="" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">CSS Creature</h5>                     
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div id="kast" class="card h-100">
-                    <img src="Images/kast-image.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Static Layout</h5>                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div id="api" class="card h-100">
-                    <img src="Images/picture-it.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">API Project</h5>                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div id="blue-badge"class="card">
-                    <img src="Images/coming-soon.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Blue Badge Project</h5>                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                    <div id="red-badge" class="card h-100">
-                      <img src="Images/coming-soon.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Blue Badge Project</h5>                        
-                      </div>
-                    </div>
-                  </div>
-              </div>
-        </div>
-        <div id="resume">
-            <h2>Resume</h2>
-        </div>
-    
     <!-- CONTACT FORM  -->
-    <form action="https://formspree.io/f/mgeplvgp" method="POST">
+    <form id="contact" action="https://formspree.io/f/mgeplvgp" method="POST">
+        <label>
+            Your Name:
+            <input id="name" type="text" name="name">
+        </label>
         <label>
             Your email:
-            <input type="text" name="_replyto">
+            <input id="email" type="text" name="_replyto">
         </label>
         <label>
             Your message:
             <textarea name="message"></textarea>
         </label>
 
+        <!-- <script>
+            window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+            formbutton("create", {action: "https://formspree.io/f/xeqpryoa"})
+          </script> -->
+
         <!-- your other form fields go here -->
 
         <button type="submit">Send</button>
     </form>
+
+    <footer>
+        <ul class="row">
+            <li class="col"></li><a href="https://codepen.io/lesleykr" target="_blank"><i class="fab fa-codepen fa-5x"></i></a></li>
+            <li class="col"></li><a href="https://www.linkedin.com/in/lesleyreuter/" target="_blank"><i class="fab fa-linkedin fa-5x"></i></a></li>
+            <li class="col"><a href="https://github.com/lesleykr" target="_blank"><i class="fab fa-github fa-5x"></i></a></li>                        
+        </ul>
+    </div>
+        <h6>&copy Lesley Reuter 2020</h6>
+    </footer>
     <!-- BOOTSTRAP SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
