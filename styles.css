@@ -1,91 +1,116 @@
 body {
-    background-color: #703263; 
+    background-color: #eeeeee; 
     font-family: 'Rajdhani', sans-serif;
+    /* background-image: url('https://cdn.hipwallpaper.com/i/14/71/yanhlv.jpg'); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 nav {
     
     font-size: 30px;
-    color: white;
+    color:#000000;
     font-family: 'Rajdhani', sans-serif; 
     
       
 }
 
 nav ul {
-    background-color: #5e366e; 
-    border-bottom: 5px solid #706897;
+    background-color: #eeeeee; 
+    border-bottom: 5px solid white;
 }
 nav li a {
-    color: white;
+    color:#818181;
      
 }
 
 nav li a:hover {
-    color: #706897;
+    color: #000000;
   }
 
 #nav-js-beg {
     /* position: relative; */
     margin-top: 7px;
-    color:  #fce0d4;
+    color: white;
     /* text-shadow: 2px 2px #FFFFFF; */
 }
 
 #nav-js-end {
     /* position: relative; */
     margin-top: 7px;
-    color:  #fce0d4;
+    color:  white
     /* text-shadow: 2px 2px #FFFFFF; */
 
 }
 
 .nav-js {
-    color:  #fce0d4;
+    color:  white;
     /* text-shadow: 2px 2px #FFFFFF; */
 }
 
 .jumbotron {
-    padding: 200px 0 130px 0;
+    padding: 220px 0 130px 0;
     /* background-color: #9088d4; */
-    border-bottom: 5px solid #706897;
+    border-bottom: 5px solid white;
     border-top: 5px solid #706897;
-    background-image: url('https://cdn.pixabay.com/photo/2017/03/25/17/56/color-2174052_960_720.png');
-    background-repeat: no-repeat;
+    background-image: url('https://cdn.pixabay.com/photo/2018/09/04/10/09/crumpled-3653349_960_720.jpg');
     background-size: cover;
 }
 
 .jumbotron .container{
     text-align: center;
     /* background-color: #5644b1; */
+    /* position: relative;
+    right: 130px;
+    bottom: 50px;; */
     
 }
 
 #jumbo-h1 {
     font-family: 'Rajdhani', sans-serif;
-    color: white;
+    color:#575757;
+    font-size: 80px;
+    /*text-shadow: 3px 3px 0px rgb(238, 238, 238); */
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+    text-shadow: rgba(150, 150, 150, 0.5) 3px 5px 1px;
+    /* text-shadow: 0px 1px 0px rgba(179, 179, 179, 0.5); */
+
 }
 
 #jumbo-h1 span {
-    color: #a39bf1;
+    /* color: #a39bf1; */
     /* text-shadow: 2px 2px #4B1F90; */
     font-size: 40px;
+    color:  gray;
 }
 
 #jumbo-h2 {
     font-family: 'Rajdhani', sans-serif;
-    color: white;
+    color:#575757;
     margin-left: 7%;
+    font-size: 50px;
+    background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+    text-shadow: rgba(150, 150, 150, 0.5) 3px 5px 1px;
 }
 
 #jumbo-h2 span {
-    color: #a39bf1;
+    color:  gray;
     font-size: 25px;
     /* text-shadow: 2px 2px #4B1F90; */
 }
 
 #jumbo-h3 {
-    color: #a39bf1;
+    color:  gray;
     font-size: 40px;
     /* text-shadow: 2px 2px #4B1F90;     */
     margin-right: 500px;
@@ -95,11 +120,11 @@ nav li a:hover {
 #greeting {
     font-size: 100px;
     margin: 70px auto;
-    color: #ffffff;
+    color:#818181;
 }
 
 #greeting span {
-    color:  #fce0d4;
+    color:  white;
     /* text-shadow: 2px 2px #161819; */
     font-size: 30px;
 }
@@ -111,20 +136,26 @@ nav li a:hover {
 #about {
     font-size: 20px;;
     margin: 70px auto;
-    color: #a69dfc;
+    color:#575757;
 }
 
 #skills h2 span {
     position: relative;
-    color:  #fce0d4;
+    color:  white;
     font-size: 25px;
+    /* bottom: 2px; */
+}
+
+#skills-beg-sp2 {
+    position: relative;
+    bottom: 5px;
 }
 
 #skills h2 {
     position: relative;
     top: 70px;
     right: 190px;
-    color: #FFFFFF;
+    color:#818181;
     font-size: 50px;
 }
 
@@ -141,7 +172,7 @@ nav li a:hover {
   }
 
   #skills ul li i {
-      color: #9088d4;
+    color:#818181;
       
   }
   
@@ -151,23 +182,27 @@ nav li a:hover {
     left: 1360px;
   }
 
-  /* #projects {
-    margin: auto;
-  } */
 
   #projects-beg {
     position: relative;
-    top: 70px;
-    right: 190px;
-    color: #FFFFFF;
+    top: 50px;
+    left: 15px;
+    color:#818181;
     font-size: 50px;
   }
 
   #projects span {
     position: relative;
-    color:  #fce0d4;
+    color:  white;
     font-size: 25px;
+    /* right: 45px;
+    top: 60px; */
   }
+#projects-beg-sp2 {
+    position: relative;
+    bottom: 5px;
+    
+}
 
   #projects-end {
     position: relative;
@@ -175,25 +210,75 @@ nav li a:hover {
     font-size: 25px;
   }
 
-form {
-    display: block;
-    margin: 70px auto;
+ #projects {
+    display: grid;
+    grid-template-columns: 20em 12em 12em 12em 12em 12em 1fr;
+    /* grid-template-rows: 300px; */
+    justify-content: center;
+    color: #434146;
+    margin-top: 100px;
+    margin-bottom: 85px;    
 }
- #name {
-     width: 1000px;
-     text-align: center;
- }
- #email {
-     width: 1000px;
- }
- textarea {
-     width: 1000px;
- }
+
+#creature {
+    grid-column: 2/3; 
+    
+}
+
+#kast {
+    grid-column: 3/4;
+    
+}
+
+#api {
+    grid-column: 4/5;
+    }
+
+#blue-badge {
+    grid-column: 5/6;
+    
+}
+
+#red-badge {
+    grid-column: 6/7;
+    }
+
+
+  #resume {
+    color:#818181;
+  }
+
+form {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em
+    
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgray;
+    color: white;
+}
 
  footer ul {
      list-style-type: none;
+     text-align: center;
  }
 
  footer ul li i{
-   color: #9088d4;
+    color:#818181;
+    
  }
+
+
+ h6 {
+    color:#818181;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+ }
+

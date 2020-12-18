@@ -49,7 +49,7 @@
 
     <!-- HEADER -->
 
-    <div class="jumbotron jumbotron-fluid " style="background-color: #9088d4;">
+    <div class="jumbotron jumbotron-fluid ">
         <div class="container">
             <h1 class="display-4" id="jumbo-h1"><span>const </span>lesleyReuter <span>= () => {</span></h1>
             <h2 class="display-5" id="jumbo-h2"><span>return '</span>junior web developer<span>';</span>
@@ -62,7 +62,7 @@
     <div class="container" id="about">
 
         <div id="greeting">
-            <h1><span>console.log('</span>hello world!<span>');</span></h1>
+            <h1><span>console.log('</span>Hello World!<span>');</span></h1>
         </div>
 
         <div class="about">
@@ -77,10 +77,10 @@
         </div>
     </div>
 
-<!-- SKILLS -->
+    <!-- SKILLS -->
 
     <div id="skills" class="container">
-        <h2><span>let</span> skills <span>= [ </span></h2>
+        <h2><span>let</span> skills <span id="skills-beg-sp2">= [ </span></h2>
 
         <ul class="row">
             <li class="col"><i class="fab fa-html5 fa-5x"></i></li>
@@ -92,56 +92,52 @@
         <h2 id="skills-end"><span>];</span></h2>
     </div>
 
-<!-- PROJECTS -->
+    <!-- PROJECTS -->
 
-    <div id="projects" class="container">
-        <h2 id="projects-beg"><span>let</span> projects <span>= [</span></h2>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-                <div id="creature" class="card h-100">
-                    <a href="https://codepen.io/lesleykr/full/rNLoZrR" target="_blank"><img
-                            src="Images/css-creature.png"></a>
-                    <div class="card-body">
-                        <h5 class="card-title">CSS Creature</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div id="kast" class="card h-100">
-                    <a href="https://lesleykr.github.io/staticLayout/" target="_blank"><img src="Images/kast-image.png"
-                            class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5 class="card-title">Static Layout</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div id="api" class="card h-100">
-                    <a href="https://lesleykr.github.io/pic-a-picAPI/" target="_blank"><img src="Images/picture-it.png"
-                            class="card-img-top" alt="..."></a>
-                    <div class="card-body">
-                        <h5 class="card-title">API Project</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div id="blue-badge" class="card">
-                    <img src="Images/coming-soon.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Blue Badge Project</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div id="red-badge" class="card h-100">
-                    <img src="Images/coming-soon.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Blue Badge Project</h5>
-                    </div>
-                </div>
-            </div>
+    <div id="projects">
+        <h2 id="projects-beg"><span>let</span> projects <span id="projects-beg-sp2">= [</span></h2>
+
+        <div id="creature">
+            <a href="https://codepen.io/lesleykr/full/rNLoZrR" target="_blank"><img src="Images/css-creature.png"></a>
+            <h5>CSS Creature</h5>
+
         </div>
-        <h2 id="projects-end"><span>];</span></h2>
+
+
+        <div id="kast">
+            <a href="https://lesleykr.github.io/staticLayout/" target="_blank"><img src="Images/kast-image.png"
+                    alt="..."></a>
+            <h5>Static Layout</h5>
+
+        </div>
+
+
+        <div id="api">
+            <a href="https://lesleykr.github.io/pic-a-picAPI/" target="_blank"><img src="Images/picture-it.png"
+                    alt="..."></a>
+
+            <h5>API Project</h5>
+
+        </div>
+
+
+        <div id="blue-badge">
+            <img src="Images/coming-soon.png">
+
+            <h5>Blue Badge Project</h5>
+
+        </div>
+
+
+        <div id="red-badge">
+            <img src="Images/coming-soon.png">
+
+            <h5>Blue Badge Project</h5>
+
+        </div>
+
+    </div>
+    <h2 id="projects-end"><span>];</span></h2>
     </div>
 
     <!-- RESUME -->
@@ -152,39 +148,53 @@
 
     <!-- CONTACT FORM  -->
 
-    <form id="contact" action="https://formspree.io/f/mgeplvgp" method="POST">
-        <label>
-            Your Name:
-            <input id="name" type="text" name="name">
-        </label>
-        <label>
-            Your email:
-            <input id="email" type="text" name="_replyto">
-        </label>
-        <label>
-            Your message:
-            <textarea name="message"></textarea>
-        </label>
+    <section id="contact-form">
+        <h2>Contact</h2>
 
-        <!-- <script>
+        <form id="contact" action="https://formspree.io/f/mgeplvgp" method="POST">
+            <div class="form-group row">
+
+
+                <div class="col-sm-10"></div>
+                <input id="name" type="text" name="name" class="form-control" id="exampleInputEmail1"
+                    placeholder="Your Name">
+            </div>
+            <div class="form-group row">
+
+                <div class="col-sm-10"></div>
+                <input id="email" type="text" name="_replyto" type="email" class="form-control" id="exampleInputEmail1"
+                    placeholder="Enter email">
+
+            </div>
+            <div class="form-group row">
+
+                <div class="col-sm-10"></div>
+                <textarea name="message" placeholder="Your Message" type="text" class="form-control"></textarea>
+
+            </div>
+
+            <!-- <script>
             window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
             formbutton("create", {action: "https://formspree.io/f/xeqpryoa"})
           </script> -->
 
-        <!-- your other form fields go here -->
+            <!-- your other form fields go here -->
 
-        <button type="submit">Send</button>
-    </form>
+            <button type="submit" class="btn btn-secondary">Send</button>
+        </form>
+    </section>
 
-<!-- FOOTER -->
+
+
+    <!-- FOOTER -->
 
     <footer>
-        <ul class="row">
-            <li class="col"><a href="https://codepen.io/lesleykr" target="_blank"><i
-                        class="fab fa-codepen fa-5x"></i></a></li>
-            <li class="col"><a href="https://www.linkedin.com/in/lesleyreuter/" target="_blank"><i
+        <ul class="row justify-content-center"">
+            <li class=" col-1"><a href="https://codepen.io/lesleykr" target="_blank"><i
+                    class="fab fa-codepen fa-5x"></i></a></li>
+            <li class="col-1"><a href="https://www.linkedin.com/in/lesleyreuter/" target="_blank"><i
                         class="fab fa-linkedin fa-5x"></i></a></li>
-            <li class="col"><a href="https://github.com/lesleykr" target="_blank"><i
+            <li class="col-1"><a href="https://github.com/lesleykr" target="_blank"><i
                         class="fab fa-github fa-5x"></i></a></li>
         </ul>
         </div>
