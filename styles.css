@@ -1,5 +1,5 @@
 body {
-    background-color: #6b1ceb;
+    background-color: #703263; 
     font-family: 'Rajdhani', sans-serif;
 }
 
@@ -8,48 +8,57 @@ nav {
     font-size: 30px;
     color: white;
     font-family: 'Rajdhani', sans-serif; 
+    
       
 }
 
 nav ul {
-    background-color: #4B1F90; 
+    background-color: #5e366e; 
+    border-bottom: 5px solid #706897;
 }
 nav li a {
     color: white;
      
 }
 
-.nav-js {
-    color: #161819;
-    
-}
+nav li a:hover {
+    color: #706897;
+  }
 
 #nav-js-beg {
     /* position: relative; */
     margin-top: 7px;
-    color:  #4B1F90;
-    text-shadow: 2px 2px #161819;
+    color:  #fce0d4;
+    /* text-shadow: 2px 2px #FFFFFF; */
 }
 
 #nav-js-end {
     /* position: relative; */
     margin-top: 7px;
-    color:  #4B1F90;
-    text-shadow: 2px 2px #161819;
+    color:  #fce0d4;
+    /* text-shadow: 2px 2px #FFFFFF; */
 
 }
 
-.nav-punct {
-    color:  #4B1F90;
-    text-shadow: 2px 2px #161819;
+.nav-js {
+    color:  #fce0d4;
+    /* text-shadow: 2px 2px #FFFFFF; */
 }
 
 .jumbotron {
     padding: 200px 0 130px 0;
+    /* background-color: #9088d4; */
+    border-bottom: 5px solid #706897;
+    border-top: 5px solid #706897;
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/25/17/56/color-2174052_960_720.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumbotron .container{
     text-align: center;
+    /* background-color: #5644b1; */
+    
 }
 
 #jumbo-h1 {
@@ -58,8 +67,9 @@ nav li a {
 }
 
 #jumbo-h1 span {
-    color: #161819;
-    text-shadow: 2px 2px #4B1F90;
+    color: #a39bf1;
+    /* text-shadow: 2px 2px #4B1F90; */
+    font-size: 40px;
 }
 
 #jumbo-h2 {
@@ -69,25 +79,29 @@ nav li a {
 }
 
 #jumbo-h2 span {
-    color: #161819;
-    text-shadow: 2px 2px #4B1F90;
+    color: #a39bf1;
+    font-size: 25px;
+    /* text-shadow: 2px 2px #4B1F90; */
 }
 
 #jumbo-h3 {
-    color: #161819;
-    text-shadow: 2px 2px #4B1F90;    
-    margin-right: 600px;
+    color: #a39bf1;
+    font-size: 40px;
+    /* text-shadow: 2px 2px #4B1F90;     */
+    margin-right: 500px;
 
 }
 
 #greeting {
     font-size: 100px;
     margin: 70px auto;
+    color: #ffffff;
 }
 
 #greeting span {
-    color:  #4B1F90;
-    text-shadow: 2px 2px #161819;
+    color:  #fce0d4;
+    /* text-shadow: 2px 2px #161819; */
+    font-size: 30px;
 }
 
 #greeting h1{
@@ -95,36 +109,70 @@ nav li a {
 }
 
 #about {
-    color: white;
+    font-size: 20px;;
     margin: 70px auto;
+    color: #a69dfc;
+}
+
+#skills h2 span {
+    position: relative;
+    color:  #fce0d4;
+    font-size: 25px;
+}
+
+#skills h2 {
+    position: relative;
+    top: 70px;
+    right: 190px;
+    color: #FFFFFF;
+    font-size: 50px;
 }
 
 #skills ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin: 70px auto;
-   
-  }
-  
-  #skills li {
-    float: left;
-  }
-  
-  #skills li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-  }
-  
- #skills li a:hover {
-    background-color: #111111;
+    
+    text-align: center;   
   }
 
-  #projects {
-    margin: 70px auto;
+  skills ul li {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  #skills ul li i {
+      color: #9088d4;
+      
+  }
+  
+  #skills-end span {
+    position: relative;
+    bottom: 160px;
+    left: 1360px;
+  }
+
+  /* #projects {
+    margin: auto;
+  } */
+
+  #projects-beg {
+    position: relative;
+    top: 70px;
+    right: 190px;
+    color: #FFFFFF;
+    font-size: 50px;
+  }
+
+  #projects span {
+    position: relative;
+    color:  #fce0d4;
+    font-size: 25px;
+  }
+
+  #projects-end {
+    position: relative;
+    color:  #fce0d4;
+    font-size: 25px;
   }
 
 form {
@@ -147,6 +195,5 @@ form {
  }
 
  footer ul li i{
-     width: 100px;
-     height: 100px;
+   color: #9088d4;
  }

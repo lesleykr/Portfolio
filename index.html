@@ -18,79 +18,89 @@
 </head>
 
 <body>
-    <!-- NAVBAR -->
-        <nav>    
-            <ul class="nav fixed-top justify-content-end">
 
-                <li class="nav-item" id="nav-js-beg">let nav = [</li>
-                <li class="nav-item">
-                    <a class="nav-link" href="nav"><span class="nav-js">'</span>home<span class="nav-js">',</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about"><span class="nav-js">'</span>about<span class="nav-js">',</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills"><span class="nav-js">'</span>skills<span class="nav-js">',</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects"><span class="nav-js">'</span>portfolio<span
-                            class="nav-js">',</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact"><span class="nav-js">'</span>contact<span class="nav-js">'</span></a>
-                </li>
-                <li class="nav-item" id="nav-js-end">];</a>
-                </li>
-            </ul>
-        </nav>
-     
+    <!-- NAVBAR -->
+
+    <nav id="nav">
+        <ul class="nav fixed-top justify-content-end">
+
+            <li class="nav-item" id="nav-js-beg">let nav = [</li>
+            <li class="nav-item">
+                <a class="nav-link" href="#nav"><span class="nav-js">'</span>home<span class="nav-js">',</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about"><span class="nav-js">'</span>about<span class="nav-js">',</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills"><span class="nav-js">'</span>skills<span class="nav-js">',</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects"><span class="nav-js">'</span>portfolio<span
+                        class="nav-js">',</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact"><span class="nav-js">'</span>contact<span
+                        class="nav-js">'</span></a>
+            </li>
+            <li class="nav-item" id="nav-js-end">];</a>
+            </li>
+        </ul>
+    </nav>
+
     <!-- HEADER -->
-    <div class="jumbotron jumbotron-fluid " style="background-color: #161819;">
+
+    <div class="jumbotron jumbotron-fluid " style="background-color: #9088d4;">
         <div class="container">
             <h1 class="display-4" id="jumbo-h1"><span>const </span>lesleyReuter <span>= () => {</span></h1>
             <h2 class="display-5" id="jumbo-h2"><span>return '</span>junior web developer<span>';</span>
                 <h1 class="display-5" id="jumbo-h3"><span>}</span></h1>
-
         </div>
     </div>
-    <!-- ABOUT -->
-    <div class="container" id="about">
-       
-            <div id="greeting">
-                <h1><span>console.log('</span>hello world<span>');</span></h1>
-            </div>
-           
-            <div class="about">
-                I'm Lesley! I am an enthusiastic web developer who revels in paying attention to the details and
-                tweaking my code until it's perfect!
-                I am a creative, out-of-the-box (there was a box? What box? I didn’t see a box…) thinker who loves
-                making things! Whether I’m coding a website, crocheting a crazy scarf, knitting wire jewelry, or melting
-                Saran Wrap to make handbags, I’m always making something!
-                My love of fixing things and problem-solving led me to work in software support and training for six
-                years. I recently spent two years working as an Activities Director in a retirement community. This
-                position allowed me to express my creativity and love of people.
 
-            </div>
-        
+    <!-- ABOUT -->
+
+    <div class="container" id="about">
+
+        <div id="greeting">
+            <h1><span>console.log('</span>hello world!<span>');</span></h1>
+        </div>
+
+        <div class="about">
+            I'm Lesley! I am an enthusiastic web developer who revels in paying attention to the details and
+            tweaking my code until it's perfect!
+            I am a creative, out-of-the-box (there was a box? What box? I didn’t see a box…) thinker who loves
+            making things! Whether I’m coding a website, crocheting a crazy scarf, knitting wire jewelry, or melting
+            Saran Wrap to make handbags, I’m always making something!
+            My love of fixing things and problem-solving led me to work in software support and training for six
+            years. I recently spent two years working as an Activities Director in a retirement community. This
+            position allowed me to express my creativity and love of people.
+        </div>
     </div>
 
+<!-- SKILLS -->
+
     <div id="skills" class="container">
-        <h2>Skills</h2>
-        
+        <h2><span>let</span> skills <span>= [ </span></h2>
+
         <ul class="row">
             <li class="col"><i class="fab fa-html5 fa-5x"></i></li>
             <li class="col"><i class="fab fa-css3-alt fa-5x"></i></li>
             <li class="col"><i class="fab fa-js-square fa-5x"></i></li>
             <li class="col"><i class="fab fa-bootstrap fa-5x"></i></li>
-            <li class="col"><i class="fab fa-github fa-5x"></i></li>            
+            <li class="col"><i class="fab fa-github fa-5x"></i></li>
         </ul>
+        <h2 id="skills-end"><span>];</span></h2>
     </div>
+
+<!-- PROJECTS -->
+
     <div id="projects" class="container">
-        <h2>Projects</h2>
+        <h2 id="projects-beg"><span>let</span> projects <span>= [</span></h2>
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <div id="creature" class="card h-100">
-                    <a href="https://codepen.io/lesleykr/full/rNLoZrR" target="_blank"><img src="Images/css-creature.png"></a>
+                    <a href="https://codepen.io/lesleykr/full/rNLoZrR" target="_blank"><img
+                            src="Images/css-creature.png"></a>
                     <div class="card-body">
                         <h5 class="card-title">CSS Creature</h5>
                     </div>
@@ -98,7 +108,8 @@
             </div>
             <div class="col">
                 <div id="kast" class="card h-100">
-                    <a href="https://lesleykr.github.io/staticLayout/" target="_blank"><img src="Images/kast-image.png" class="card-img-top" alt="..."></a>
+                    <a href="https://lesleykr.github.io/staticLayout/" target="_blank"><img src="Images/kast-image.png"
+                            class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">Static Layout</h5>
                     </div>
@@ -106,7 +117,8 @@
             </div>
             <div class="col">
                 <div id="api" class="card h-100">
-                    <a href="https://lesleykr.github.io/pic-a-picAPI/" target="_blank"><img src="Images/picture-it.png" class="card-img-top" alt="..."></a>
+                    <a href="https://lesleykr.github.io/pic-a-picAPI/" target="_blank"><img src="Images/picture-it.png"
+                            class="card-img-top" alt="..."></a>
                     <div class="card-body">
                         <h5 class="card-title">API Project</h5>
                     </div>
@@ -129,12 +141,17 @@
                 </div>
             </div>
         </div>
+        <h2 id="projects-end"><span>];</span></h2>
     </div>
+
+    <!-- RESUME -->
+
     <div id="resume">
         <h2>Resume</h2>
     </div>
 
     <!-- CONTACT FORM  -->
+
     <form id="contact" action="https://formspree.io/f/mgeplvgp" method="POST">
         <label>
             Your Name:
@@ -159,13 +176,18 @@
         <button type="submit">Send</button>
     </form>
 
+<!-- FOOTER -->
+
     <footer>
         <ul class="row">
-            <li class="col"></li><a href="https://codepen.io/lesleykr" target="_blank"><i class="fab fa-codepen fa-5x"></i></a></li>
-            <li class="col"></li><a href="https://www.linkedin.com/in/lesleyreuter/" target="_blank"><i class="fab fa-linkedin fa-5x"></i></a></li>
-            <li class="col"><a href="https://github.com/lesleykr" target="_blank"><i class="fab fa-github fa-5x"></i></a></li>                        
+            <li class="col"><a href="https://codepen.io/lesleykr" target="_blank"><i
+                        class="fab fa-codepen fa-5x"></i></a></li>
+            <li class="col"><a href="https://www.linkedin.com/in/lesleyreuter/" target="_blank"><i
+                        class="fab fa-linkedin fa-5x"></i></a></li>
+            <li class="col"><a href="https://github.com/lesleykr" target="_blank"><i
+                        class="fab fa-github fa-5x"></i></a></li>
         </ul>
-    </div>
+        </div>
         <h6>&copy Lesley Reuter 2020</h6>
     </footer>
     <!-- BOOTSTRAP SCRIPTS -->
