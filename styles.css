@@ -1,6 +1,7 @@
 body {
     background-color: #e2e1e1; 
     font-family: 'Rajdhani', sans-serif;
+    width: 100%;
     /* background-image: url('https://cdn.hipwallpaper.com/i/14/71/yanhlv.jpg'); */
     /* background-repeat: no-repeat;
     background-size: cover; */
@@ -11,7 +12,6 @@ nav {
     font-size: 30px;
     color:#000000;
     font-family: 'Rajdhani', sans-serif; 
-    
     
       
 }
@@ -62,7 +62,7 @@ nav li a:hover {
     padding: 220px 0 130px 0;
     /* background-color: #9088d4; */
     border-bottom: 5px solid white;
-    border-top: 5px solid #706897;
+    
     background-image: url('https://cdn.pixabay.com/photo/2018/09/04/10/09/crumpled-3653349_960_720.jpg');
     background-size: cover;
 }
@@ -189,7 +189,7 @@ nav li a:hover {
   #skills-end span {
     position: relative;
     bottom: 160px;
-    left: 1360px;
+    left: 1350px;
   }
 
 
@@ -218,8 +218,8 @@ nav li a:hover {
     position: relative;
     color:  white;
     font-size: 25px;
-    left: 1375px;
-    bottom: 300px;
+    left: 40px;
+    bottom: -100px;
 
   }
 
@@ -376,7 +376,7 @@ form {
     
     margin-left: auto;
     margin-right: auto;
-    width: 50em
+    width: 50em;
     
 }
 
@@ -448,9 +448,23 @@ form {
         
     }
 
+#joke {
+    margin-left: 420px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color:#818181;
+    border: 2px solid #818181; 
+    width: 700px;
+    padding: 40px;
+}
+
+#joke span {
+    color: white;
+}
+
     footer {
         margin-top: 50px;
-        margin-right: 45px;
+        /* margin-right: 45px; */
     }
  footer ul {
      list-style-type: none;
