@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel='stylesheet' href='styles.css'>
+    <link href="Images/lr-favicon.webp" rel="shortcut icon" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Anaheim&family=Blinker&family=Lekton&family=Montserrat&family=Rajdhani:wght@500&display=swap"
@@ -22,7 +22,7 @@
     <!-- NAVBAR -->
 
     <nav id="nav">
-        <ul class="nav fixed-top justify-content-end">
+        <ul class="nav fixed-top">
 
             <li class="nav-item" id="nav-js-beg">let nav = [</li>
             <li class="nav-item">
@@ -40,7 +40,12 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contact"><span class="nav-js">'</span>contact<span
-                        class="nav-js">'</span></a>
+                        class="nav-js">',</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"
+                    href="https://drive.google.com/file/d/1ROOdr3gJew5jFGN5-JMNbKcj8DuclSwq/view?usp=sharing"
+                    target="_blank"><span class="nav-js">'</span>resume<span class="nav-js">'</span></a>
             </li>
             <li class="nav-item" id="nav-js-end">];</a>
             </li>
@@ -95,19 +100,22 @@
     <!-- PROJECTS -->
 
     <div id="projects">
-        <h2 id="projects-beg"><span>let</span> projects <span id="projects-beg-sp2">= [</span></h2>
+        <h2 id="projects-beg"><span>let</span> portfolio <span id="projects-beg-sp2">= [</span></h2>
 
         <div id="creature">
-            <a href="https://codepen.io/lesleykr/full/rNLoZrR" target="_blank"><img src="Images/css-creature.png"></a>
-            <h5>CSS Creature</h5>
+            <a href="https://codepen.io/lesleykr/full/rNLoZrR" target="_blank"><img id="meeep"
+                    src="Images/css-creature.png"></a>
+
+            <h5 id="creature-text">CSS Creature</h5>
+
 
         </div>
 
 
-        <div id="kast">
+        <div id="static-layout">
             <a href="https://lesleykr.github.io/staticLayout/" target="_blank"><img src="Images/kast-image.png"
                     alt="..."></a>
-            <h5>Static Layout</h5>
+            <h5 id="static-layout-text">Static Layout</h5>
 
         </div>
 
@@ -116,7 +124,7 @@
             <a href="https://lesleykr.github.io/pic-a-picAPI/" target="_blank"><img src="Images/picture-it.png"
                     alt="..."></a>
 
-            <h5>API Project</h5>
+            <h5 id="api-text">API Project</h5>
 
         </div>
 
@@ -124,7 +132,7 @@
         <div id="blue-badge">
             <img src="Images/coming-soon.png">
 
-            <h5>Blue Badge Project</h5>
+            <h5 id="blue-badge-text">Blue Badge Project</h5>
 
         </div>
 
@@ -132,7 +140,7 @@
         <div id="red-badge">
             <img src="Images/coming-soon.png">
 
-            <h5>Blue Badge Project</h5>
+            <h5 id="red-badge-text">Red Badge Project</h5>
 
         </div>
 
@@ -140,51 +148,42 @@
     <h2 id="projects-end"><span>];</span></h2>
     </div>
 
-    <!-- RESUME -->
-
-    <div id="resume">
-        <h2>Resume</h2>
-    </div>
-
     <!-- CONTACT FORM  -->
 
     <section id="contact-form">
-        <h2>Contact</h2>
+        <h2><span id="form-js-beg">let</span> contact <span id="form-js-beg-sp2">= {</span></h2>
 
         <form id="contact" action="https://formspree.io/f/mgeplvgp" method="POST">
             <div class="form-group row">
 
+                <label id="name-label">name:</label>
 
                 <div class="col-sm-10"></div>
-                <input id="name" type="text" name="name" class="form-control" id="exampleInputEmail1"
-                    placeholder="Your Name">
+                <input id="name" type="text" name="name" class="form-control" placeholder="Your Name">
+
             </div>
+            <label id="email-label">email:</label>
             <div class="form-group row">
 
                 <div class="col-sm-10"></div>
-                <input id="email" type="text" name="_replyto" type="email" class="form-control" id="exampleInputEmail1"
+                <input id="email" type="text" name="_replyto" type="email" class="form-control"
                     placeholder="Enter email">
 
             </div>
             <div class="form-group row">
-
+                <label id="message-label">message:</label>
                 <div class="col-sm-10"></div>
                 <textarea name="message" placeholder="Your Message" type="text" class="form-control"></textarea>
 
             </div>
 
-            <!-- <script>
-            window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
-            formbutton("create", {action: "https://formspree.io/f/xeqpryoa"})
-          </script> -->
+            <div class="d-flex justify-content-center"></div>
 
-            <!-- your other form fields go here -->
-
-            <button type="submit" class="btn btn-secondary">Send</button>
+            <button type="submit" id="send-button" class="btn btn-secondary">Send</button>
+            </div>
         </form>
+        <h2 id="form-js-end">};</h2>
     </section>
-
-
 
     <!-- FOOTER -->
 
