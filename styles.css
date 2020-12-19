@@ -17,7 +17,7 @@ nav ul {
 
 nav li a {
     color:#818181;
-    font-size: 23px;     
+    font-size: 27px;     
 }
 
 nav li a:hover {
@@ -28,15 +28,15 @@ nav li a:hover {
   }
 
 #nav-js-beg {    
-    margin-top: 10px;
+    margin-top: 12px;
     color: white;
     margin-left: 10px;
-    font-size: 17px;    
+    font-size: 20px;    
 }
 
 #nav-js-end {    
     margin-top: 12px;
-    font-size: 17px;
+    font-size: 20px;
     color:  white
 }
 
@@ -96,10 +96,13 @@ nav li a:hover {
     margin-right: 500px;
 }
 
-#greeting {
-    font-size: 100px;
+#greeting {    
     margin: 70px auto;
     color:#818181;
+}
+
+#hello {
+    font-size: 50px;
 }
 
 #greeting span {
@@ -112,7 +115,7 @@ nav li a:hover {
 }
 
 #about {
-    font-size: 20px;;
+    font-size: 25px;;
     margin: 70px auto;
     color:#575757;
 }
@@ -131,7 +134,7 @@ nav li a:hover {
 #skills h2 {
     position: relative;
     top: 70px;
-    right: 190px;
+    right: 350px;
     color:#818181;
     font-size: 50px;
 }
@@ -154,13 +157,13 @@ color:#818181;
 #skills-end span {
 position: relative;
 bottom: 160px;
-left: 1350px;
+left: 1650px;
 }
 
 #projects-beg {
 position: relative;
-top: 70px;
-left: 15px;
+top: 120px;
+left: 40px;
 color:#818181;
 font-size: 50px;
 }
@@ -180,17 +183,21 @@ font-size: 25px;
     position: relative;
     color:  white;
     font-size: 25px;
-    left: 40px;
-    bottom: -100px;
+    left: 10px;
+    bottom: -140px;
   }
 
  #projects {
     display: grid;
-    grid-template-columns: 20em 12em 12em 12em 12em 12em 1fr;    
+    grid-template-columns: 20em 17em 17em 17em 17em 17em 1fr;    
     justify-content: center;
     color: #434146;
     margin-top: 100px;
     margin-bottom: 85px;    
+}
+
+#projects img {
+    width: 250px;
 }
 
 #creature {
@@ -319,12 +326,12 @@ font-size: 25px;
 form {    
     margin-left: auto;
     margin-right: auto;
-    width: 50em;    
+    width: 50em;     
 }
 
 #contact-form h2 {
     position: relative;    
-    left: 15px;
+    left: 35px;
     color:#818181;
     font-size: 50px;
 }
@@ -385,7 +392,7 @@ form {
 }
 
 #joke {
-    margin-left: 410px;
+    margin-left: 595px;
     margin-top: 50px;
     margin-bottom: 100px;
     color:#818181;
